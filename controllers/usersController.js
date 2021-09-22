@@ -8,7 +8,7 @@ module.exports  ={
     competitors: (req,res)=>{
         res.render('Competitors', {
             title: 'Agregar competidor',
-            css:"login.css"
+            css:"competitors.css"
         })
     },
     referee: (req,res)=>{
@@ -26,7 +26,7 @@ module.exports  ={
     category:(req,res)=>{
         res.render('Category',{
             title:"Categorias",
-            css:"login.css"
+            css:"category.css"
         })
     },
     evaluation:(req,res)=>{
