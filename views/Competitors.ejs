@@ -1,0 +1,40 @@
+<%- include('./partials/Head.ejs') %> 
+<%- include('./partials/Header.ejs') %> 
+
+    <div class="row">
+        <div class="container">
+            <h1 class="text-center">Competidores</h1>
+        </div>
+    </div><div class="row">
+        <div class="container d-flex justify-content-center">
+            <form class="form-inline ">
+                <div class="flex-colunm">
+                <div class="form-group">
+                  <label for="name">Nombre</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                  <label for="lastName ">Apellido</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="Apellido">
+                </div>
+                <div class="form-group ">
+                    <label for="age">Edad</label>
+                    <input type="text" class="form-control" id="age" placeholder="Edad">
+                </div>
+                <div class="form-group">
+                    <label for="F">Femenino <input id="F" type="radio" value="F" class="form-control"> </label>
+                    <label for="">Masculino <input id="M" type="radio" value="M" class="form-control"> </label>
+                </div>
+                <div class="m-4">
+                    <button type="submit" class="btn btn-success">Agregar</button>
+                    <button type="submit" class="btn btn-danger">Cancelar</button>
+                    <button type="submit" class="btn btn-dark">Buscar?</button>
+                </div>
+                </div>
+              </form>
+        </iv>
+    </div>
+
+
+
+<%- include("./partials/Footer.ejs") %>
