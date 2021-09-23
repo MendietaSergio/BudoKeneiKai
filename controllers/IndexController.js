@@ -8,21 +8,21 @@ module.exports  ={
     showTable01:(req,res)=>{
         res.render('showPoints',{
             title:"Muestra puntaje mesa - 01",
-            css:"login.css",
+            css:"showPoints.css",
             
         })
     },
     showTable02:(req,res)=>{
         res.render('showPoints',{
             title:"Muestra puntaje mesa - 02",
-            css:"login.css",
+            css:"showPoints.css",
             
         })
     },
     showTable03:(req,res)=>{
         res.render('showPoints',{
             title:"Muestra puntaje mesa - 03",
-            css:"login.css",
+            css:"showPoints.css",
             
         })
     },
