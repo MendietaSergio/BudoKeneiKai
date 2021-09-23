@@ -9,3 +9,30 @@ a {
 .nav-item{
   margin: 10px !important;
 }
+.submenu-ul{
+  display: none;
+}
+.dropdown-menu>li{
+  padding: 10px;
+}
+.dropdown-menu li:hover{
+  background-color: silver;
+}
+.dropdown-menu li:hover .submenu-ul {
+  display: block;
+}
+.submenu-ul{
+  left: 158px;
+  position: absolute;
+  min-width: 110px;
+  background-color: #fff;
+background-clip: padding-box;
+border: 1px solid rgba(0,0,0,.15);
+border-radius: .25rem;
+  top: 46px;
+  list-style: none;
+  padding: 3px;
+}
+.submenu-ul li{
+  padding: 4px;
+}
