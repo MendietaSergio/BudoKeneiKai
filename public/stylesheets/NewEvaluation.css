@@ -1,0 +1,10 @@
+.select-disciplina{
+    width: 100% !important;
+}
+.bton{
+    width: 50%;
+}
+.bton .btn{
+    padding: 0;
+    margin: 4px;
+}
