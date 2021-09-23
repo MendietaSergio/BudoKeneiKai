@@ -10,6 +10,7 @@ router.get('/admin/gestion-usuario', userController.userManagement)
 router.get('/admin/categorias', userController.category)
 router.get('/admin/crear-evaluacion', userController.evaluationCreate)
 router.get('/admin/vista-evaluacion', userController.evaluationView)
+router.get('/admin/evaluacion', userController.evaluation)
 router.get('/admin/puntajes', userController.score)
 
 

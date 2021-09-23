@@ -41,6 +41,12 @@ module.exports  ={
             css:"NewEvaluation.css"
         })
     },
+    evaluation:(req,res)=>{
+        res.render('Evaluation',{
+            title:"Listado de Evaluacion",
+            css:"Evaluation.css"
+        })
+    },
     score:(req,res)=>{
         res.render('Score',{
             title:"Puntajes",
