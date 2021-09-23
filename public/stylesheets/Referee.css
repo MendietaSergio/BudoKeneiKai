@@ -1,0 +1,26 @@
+form{
+    margin: 30px;
+}
+.form-group{
+    padding: 0 !important;
+}
+.form-select-category{
+    width: 300px !important;
+}
+.form-select-kata,.form-select-nomEva{
+    width: 150px !important;
+}
+.form-select-nomEva{
+    margin-top: 34px ;
+}
+.form-select-participants{
+    margin-left: -16px;
+    margin-top: 20px;
+    width: 150px;
+}
+.pointF,.pointT{
+    width: 65px;
+    height: 25px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}

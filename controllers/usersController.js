@@ -14,7 +14,7 @@ module.exports  ={
     referee: (req,res)=>{
         res.render('Referee', {
             title: 'Puntaje Arbitro',
-            css:"login.css"
+            css:"Referee.css"
         })
     },
     userManagement:(req,res)=>{
