@@ -16,7 +16,7 @@
                                       Gestión personal <span class="caret"></span>
                                     </button>
                                   
-                                    <ul class="dropdown-menu w-100 px-3" role="menu">
+                                    <ul class="dropdown-menu " role="menu">
                                       <li><a href="/admin/gestion-usuario">Usuarios</a></li>
                                       <li><a href="/arbitro">Arbitros</a></li>
                                       <li><a href="/admin/competidores">Competidores</a></li>
@@ -25,14 +25,21 @@
                             </li>
                             <li class="nav-item">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-default dropdown-toggle"
+                                    <button  class="btn btn-default dropdown-toggle"
                                             data-toggle="dropdown">
                                       Gestión Torneo <span class="caret"></span>
                                     </button>
                                   
-                                    <ul class="dropdown-menu w-100 px-3" role="menu">
+                                    <ul class="dropdown-menu" role="menu">
                                       <li><a href="/admin/categorias">Categorias</a></li>
-                                      <li><a href="/admin/evaluacion">Evaluación</a></li>
+                                      <li class="submenu">
+                                        <a href="#">Evaluación
+                                        </a>
+                                        <ul class="submenu-ul">
+                                          <li><a href="/admin/evaluacion/crear">Crear</a></li>
+                                          <li><a href="/admin/evaluacion/vista">Vista</a></li>
+                                        </ul>
+                                      </li>
                                       <li><a href="/admin/puntajes">Puntajes</a></li>
                                     </ul>
                                   </div>
