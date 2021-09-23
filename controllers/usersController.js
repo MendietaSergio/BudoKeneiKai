@@ -29,9 +29,15 @@ module.exports  ={
             css:"category.css"
         })
     },
-    evaluation:(req,res)=>{
-        res.render('Evaluation',{
-            title:"Evaluacion",
+    evaluationCreate:(req,res)=>{
+        res.render('NewEvaluation',{
+            title:"Crear Evaluacion",
+            css:"NewEvaluation.css"
+        })
+    },
+    evaluationView:(req,res)=>{
+        res.render('ViewEvaluation',{
+            title:"Vista Evaluacion",
             css:"login.css"
         })
     },
