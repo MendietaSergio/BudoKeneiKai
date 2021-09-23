@@ -1,0 +1,22 @@
+.select-category,.select-nameEva{
+    width: 60%;
+}
+select{
+    width: 50%;
+}
+.bton{
+    width: 50%;
+}
+.btonEdit{
+    margin-top: 24px !important;
+}
+#FF,#FT,#Final{
+    width: 30%;
+}
+.P-PhysicalPe,.P-PhysicalFa,.P-TechnicalPe,.P-TechnicalFa{
+    width: 50px !important;
+    margin: 22px !important;
+}
+.preliminar,.factores{
+    margin-top: 2rem !important;
+}

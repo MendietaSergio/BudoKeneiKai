@@ -1,13 +1,264 @@
-<%- include('./partials/Head.ejs') %> 
-<%- include('./partials/Header.ejs') %> 
+<%- include('./partials/Head.ejs') %>
+    <%- include('./partials/Header.ejs') %>
 
 
-<div class="row">
-    <div class="container">
-        <h1 class="text-center">Puntajes</h1>
-    </div>
-</div>
+        <div class="row">
+            <div class="container">
+                <h1 class="text-center">Puntajes</h1>
+                <form>
+                    <div class="row  my-3">
+                        <div class="col">
+                            <div class="form-group m-3">
+                                <select id="categoria" class="form-select form-select-sm select-category"
+                                    aria-label=".form-select-sm example">
+                                    <option selected>CATEGORIA</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group m-3">
+                                <select id="categoria" class="form-select form-select-sm select-kind"
+                                    aria-label=".form-select-sm example">
+                                    <option selected>TIPO</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group m-3">
+                                <select id="categoria" class="form-select form-select-sm"
+                                    aria-label=".form-select-sm example">
+                                    <option selected>DETALLE</option>
+                                    <option value="1">ROUND</option>
+                                    <option value="2">DESEMPATE</option>
+                                    <option value="3">FINAL</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-between">
+                        <div class="col">
+                            <div class="form-group m-3" m-3>
+                                <select id="categoria" class="form-select form-select-sm select-nameEva"
+                                    aria-label=".form-select-sm example">
+                                    <option selected>NOMBRE A EVALUAR</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group m-3">
+                                <select id="categoria" class="form-select form-select-sm select-disciplina"
+                                    aria-label=".form-select-sm example">
+                                    <option selected>COMPETIDOR</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex flex-column bton m-2">
+                                <button type="button" class="btn btn-secondary">Buscar</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!--PUNTAJES-->
+                <div class="border border-dark">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <div class="row m-2 ">
+                                            <div class="col my-4 text-center">
+                                                <span>Arbitro 01 </span>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Physical1">P. Fisico</label>
+                                                <input type="email" class="form-control" id="P.Physical1">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Technical1">P. Tecnico</label>
+                                                <input type="email" class="form-control" id="P.Technical1">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                        </div>
+                                        <div class="row m-2 ">
+                                            <div class="col my-4 text-center">
+                                                <span>Arbitro 02 </span>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Physical2">P. Fisico</label>
+                                                <input type="email" class="form-control" id="P.Physical2">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Technical2">P. Tecnico</label>
+                                                <input type="email" class="form-control" id="P.Technical2">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                        </div>
+                                        <div class="row m-2 ">
+                                            <div class="col my-4 text-center">
+                                                <span>Arbitro 03 </span>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Physical3">P. Fisico</label>
+                                                <input type="email" class="form-control" id="P.Physical3">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Technical3">P. Tecnico</label>
+                                                <input type="email" class="form-control" id="P.Technical3">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                        </div>
+                                        <div class="row m-2 ">
+                                            <div class="col my-4 text-center">
+                                                <span>Arbitro 04 </span>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Physical4">P. Fisico</label>
+                                                <input type="email" class="form-control" id="P.Physical4">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Technical4">P. Tecnico</label>
+                                                <input type="email" class="form-control" id="P.Technical4">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                        </div>
+                                        <div class="row m-2 ">
+                                            <div class="col my-4 text-center">
+                                                <span>Arbitro 05 </span>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Physical5">P. Fisico</label>
+                                                <input type="email" class="form-control" id="P.Physical5">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Technical5">P. Tecnico</label>
+                                                <input type="email" class="form-control" id="P.Technical5">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                        </div>
+                                        <div class="row m-2 ">
+                                            <div class="col my-4 text-center">
+                                                <span>Arbitro 06 </span>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Physical6">P. Fisico</label>
+                                                <input type="email" class="form-control" id="P.Physical6">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Technical6">P. Tecnico</label>
+                                                <input type="email" class="form-control" id="P.Technical6">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                        </div>
+                                        <div class="row m-2 ">
+                                            <div class="col my-4 text-center">
+                                                <span>Arbitro 07 </span>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Physical7">P. Fisico</label>
+                                                <input type="email" class="form-control" id="P.Physical7">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                            <div class="col">
+                                                <label for="P.Technical7">P. Tecnico</label>
+                                                <input type="email" class="form-control" id="P.Technical7">
+                                            </div>
+                                            <div class="col btonEdit">
+                                                <button class="btn btn-warning" type="button">Modificar</button>
+                                            </div>
+                                        </div>
+                                        <div class="row m-2">
+                                            <div class="col-3 preliminar text-center">
+                                                <span class="">Preliminar</span>
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control P-PhysicalPe" id="P.PhysicalPe" >
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control P-TechnicalPe" id="P.TechnicalPe" >
+                                            </div>
+                                        </div>
+                                        <div class="row m-2">
+                                            <div class="col-3 factores text-center">
+                                                <span class="">FACTORES</span>
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control P-PhysicalFa" id="P.PhysicalFa" >
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control P-TechnicalFa" id="P.TechnicalFa" >
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center flex-column px-3">
+                            <div class="form-group">
+                                <label for="FF">Final Fisico</label>
+                                <input type="text" class="form-control" id="FF">
+                            </div>
+                            <div class="form-group">
+                                <label for="FT">Final Tecnico</label>
+                                <input type="text" class="form-control" id="FT">
+                            </div>
+                            <div class="form-group">
+                                <label for="Final">Final</label>
+                                <input type="text" class="form-control" id="Final">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
-<%- include("./partials/Footer.ejs") %>
+        <%- include("./partials/Footer.ejs") %>

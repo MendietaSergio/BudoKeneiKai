@@ -44,7 +44,7 @@ module.exports  ={
     score:(req,res)=>{
         res.render('Score',{
             title:"Puntajes",
-            css:"login.css"
+            css:"Score.css"
         })
     },
 }
