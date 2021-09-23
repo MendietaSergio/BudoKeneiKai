@@ -38,7 +38,7 @@ module.exports  ={
     evaluationView:(req,res)=>{
         res.render('ViewEvaluation',{
             title:"Vista Evaluacion",
-            css:"login.css"
+            css:"NewEvaluation.css"
         })
     },
     score:(req,res)=>{

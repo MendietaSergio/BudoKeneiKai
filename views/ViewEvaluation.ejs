@@ -1,0 +1,133 @@
+<%- include('./partials/Head.ejs') %> 
+<%- include('./partials/Header.ejs') %> 
+
+
+<div class="row">
+    <div class="container">
+        <h1 class="text-center">Evaluación</h1>
+        <form>
+            <div class="row  my-3">
+                <div class="col-5">
+                    <div class="form-group">
+                        <label for="categoria">Categoria</label>
+                        <br />
+                        <select id="categoria" class="form-select form-select-sm select-disciplina"
+                            aria-label=".form-select-sm example">
+                            <option selected>DISCIPLINA</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="categoria">KATA</label>
+                        <br />
+                        <select id="categoria" class="form-select form-select-sm"
+                            aria-label=".form-select-sm example">
+                            <option selected>DETALLE</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group my-4">
+                        <select id="categoria" class="form-select form-select-sm"
+                            aria-label=".form-select-sm example">
+                            <option selected>NOMBRE EVALUAR</option>
+                            <option value="1">ROUND</option>
+                            <option value="2">DESEMPATE</option>
+                            <option value="3">FINAL</option>
+                        </select>
+                    </div>
+                </div>
+            </div>            
+        </form>
+        <!--TAB3A DE COMPETIDORES Y ARBITROS-->
+        <div class="row">
+            <div class="col-12">
+                <h4 class="text-left">Arbitros</h4>
+            </div>
+            <div class="col-12">
+                <table class="table table-sm border border-dark">
+                    <thead>
+                        <tr class="bg-primary">
+                            <th scope="col">Arbitros</th>
+                            <th scope="col">Categoria</th>
+                            <th scope="col">Detalle</th>
+                            <th scope="col">Evaluacion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">fulano torres</th>
+                            <td>TEAM KOBUDO ADULTO de 18 años en adelante OPEN DAN - MIXTO</td>
+                            <td>Anan</td>
+                            <td>round</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>TEAM KOBUDO ADULTO de 18 años en adelante OPEN DAN - MIXTO</td>
+                            <td>Anan</td>
+                            <td>round</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>
+                                TEAM KOBUDO ADULTO de 18 años en adelante OPEN DAN - MIXTO
+                            </td>
+                            <td>Anan</td>
+                            <td>round</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 class="text-left">Competidores</h4>
+            </div>
+            <div class="col-12">
+                <table class="table table-sm border border-dark">
+                    <thead>
+                        <tr class="bg-primary">
+                            <th scope="col">Arbitros</th>
+                            <th scope="col">Categoria</th>
+                            <th scope="col">Detalle</th>
+                            <th scope="col">Evaluacion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">fulano torres</th>
+                            <td>TEAM KOBUDO ADULTO de 18 años en adelante OPEN DAN - MIXTO</td>
+                            <td>Anan</td>
+                            <td>round</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>TEAM KOBUDO ADULTO de 18 años en adelante OPEN DAN - MIXTO</td>
+                            <td>Anan</td>
+                            <td>round</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>
+                                TEAM KOBUDO ADULTO de 18 años en adelante OPEN DAN - MIXTO
+                            </td>
+                            <td>Anan</td>
+                            <td>round</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<%- include("./partials/Footer.ejs") %>
