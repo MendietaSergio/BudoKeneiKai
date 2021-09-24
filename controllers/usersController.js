@@ -17,6 +17,12 @@ module.exports  ={
             css:"Referee.css"
         })
     },
+    refereeManagement: (req,res)=>{
+        res.render('RefereeManagement', {
+            title: 'Gestion Arbitros',
+            css:""
+        })
+    },
     userManagement:(req,res)=>{
         res.render('UserManagement',{
             title:"Gestion de usuario",
